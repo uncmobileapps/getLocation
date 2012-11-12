@@ -18,6 +18,7 @@
 		53DC106B164855F700361D56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53DC106A164855F700361D56 /* Default-568h@2x.png */; };
 		53DC106E164855F700361D56 /* locateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DC106D164855F700361D56 /* locateViewController.m */; };
 		53DC1071164855F700361D56 /* locateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DC106F164855F700361D56 /* locateViewController.xib */; };
+		53DC10781648581A00361D56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DC10771648581A00361D56 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		53DC106C164855F700361D56 /* locateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locateViewController.h; sourceTree = "<group>"; };
 		53DC106D164855F700361D56 /* locateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locateViewController.m; sourceTree = "<group>"; };
 		53DC1070164855F700361D56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/locateViewController.xib; sourceTree = "<group>"; };
+		53DC10771648581A00361D56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DC10781648581A00361D56 /* CoreLocation.framework in Frameworks */,
 				53DC1055164855F700361D56 /* UIKit.framework in Frameworks */,
 				53DC1057164855F700361D56 /* Foundation.framework in Frameworks */,
 				53DC1059164855F700361D56 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		53DC1045164855F700361D56 = {
 			isa = PBXGroup;
 			children = (
+				53DC10771648581A00361D56 /* CoreLocation.framework */,
 				53DC105A164855F700361D56 /* getLocation */,
 				53DC1053164855F700361D56 /* Frameworks */,
 				53DC1051164855F700361D56 /* Products */,

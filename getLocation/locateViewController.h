@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface locateViewController : UIViewController
+@interface locateViewController : UIViewController <CLLocationManagerDelegate> {
+    CLLocationManager *locationManager;
+}
+- (IBAction)findMePressed:(id)sender;
+@property (strong, nonatomic) IBOutlet CLLocationManager *locationManager;
+@property (weak, nonatomic) IBOutlet UILabel *latLabel;
+@property (weak, nonatomic) IBOutlet UILabel *longLabel;
 
 @end
